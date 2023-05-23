@@ -1,0 +1,206 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+body,
+section{
+    width: 375px;
+}
+body{
+    background-color: #f5f5f5;
+}
+
+#platform{
+    background-color: #ffffff;
+    margin-bottom: 10px;
+
+}
+/*_______________________ TYPOGRAPHY _______________________*/
+
+body{
+    max-width: 375px;
+    font-family: "Source Sans Pro", "sans-serif";
+}
+
+#likes{
+    font-size: 13px;
+    font-weight: 700;
+    
+}
+
+#username{
+    font-size: 13px;
+    font-weight: 700;
+}
+
+#user-comment{
+    font-size: 13px;
+    font-weight: 300;
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
+/*_______________________ HEADER _______________________*/
+
+
+
+header{
+    width: 342px;
+    
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffffff;
+    padding: 16px ;
+    border-bottom: solid 1px #C6C6C6;
+}
+
+#logo-div{
+    width: 127px;
+    height: 33.02px;
+}
+
+.logo{
+ 
+    
+width: 100%;
+height: 100%;
+margin: auto;
+    
+
+}
+
+
+
+#user-avatar1{
+    
+
+    border-radius: 100%;
+    height: 34px;
+    width: 34px;
+
+}
+
+
+
+/*_______________________ USER NAME & PICTURE _______________________*/
+
+#banner1{
+    display: flex;
+    /*border: solid 5px black;*/
+    padding: 10px;
+    align-items: center;
+}
+
+
+    
+
+
+#user-avatar {
+    height: 34px;
+    width: 34px;
+    
+   border-radius: 100%;
+
+}
+
+#info{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    padding: 0px 7px;
+}
+
+#user-name{
+    margin: 0;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+p{
+    margin: 0;
+    font-weight: 300;
+    font-size: 12px;
+}
+
+/*_______________________ POST _______________________*/
+
+#post{
+    width: 375px;
+    height: 375px;
+    cursor: pointer;
+
+}
+#post img{
+    width: 100%;
+    height: 100%;
+}
+
+/*_______________________ ICONS _______________________*/
+
+#icons{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    width: 90px;
+}
+
+#heart-icon{
+    height: 20px;
+    width: 20px;
+    margin: 0;
+    cursor: pointer;
+
+}
+
+
+
+
+
+#comment-icon{
+    height: 20px;
+    width: 20px;
+    margin: 0;
+
+}
+
+#dm-icon{
+    height: 20px;
+    width: 20px;
+    margin: 0;
+}
+
+#heart-icon:hover,
+#comment-icon:hover,
+#dm-icon:hover{
+    opacity: 50%;
+}
+
+.heart-icon-red{
+    height: 20px;
+    width: 20px;
+    margin: 0;
+    cursor: pointer;
+    background: red;
+
+}
+
+/*_______________________ ICONS _______________________*/
+
+#likes{
+    padding: 0px 10px;
+}
+
+/*_______________________ USERNAME & COMMENT _______________________*/
+
+#username-comment{
+    display: flex;
+    padding-left: 10px;
+
+}
+
+#user-comment{
+    padding-left: 3px;
+}
+
